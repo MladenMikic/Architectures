@@ -13,7 +13,18 @@
 		F611A4E526EFB1DE007F6DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F611A4E426EFB1DE007F6DF3 /* Assets.xcassets */; };
 		F611A4E826EFB1DE007F6DF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F611A4E726EFB1DE007F6DF3 /* Preview Assets.xcassets */; };
 		F611A4EB26EFB1DE007F6DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F611A4E926EFB1DE007F6DF3 /* LaunchScreen.storyboard */; };
+		F611A4FA26EFB3C7007F6DF3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F611A4F926EFB3C7007F6DF3 /* README.md */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F611A4F626EFB225007F6DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F611A4F226EFB225007F6DF3 /* SwiftUI_Coordinator_Pattern_Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F611A49726EF3FB3007F6DF3;
+			remoteInfo = SwiftUI_Coordinator_Pattern_Example;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F611A4DB26EFB1DD007F6DF3 /* Architectures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Architectures.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +35,8 @@
 		F611A4E726EFB1DE007F6DF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F611A4EA26EFB1DE007F6DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F611A4EC26EFB1DE007F6DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F611A4F226EFB225007F6DF3 /* SwiftUI_Coordinator_Pattern_Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftUI_Coordinator_Pattern_Example.xcodeproj; path = Projects/SwiftUI_Coordinator_Pattern_Example/SwiftUI_Coordinator_Pattern_Example.xcodeproj; sourceTree = "<group>"; };
+		F611A4F926EFB3C7007F6DF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +53,8 @@
 		F611A4D226EFB1DD007F6DF3 = {
 			isa = PBXGroup;
 			children = (
+				F611A4F926EFB3C7007F6DF3 /* README.md */,
+				F611A4F226EFB225007F6DF3 /* SwiftUI_Coordinator_Pattern_Example.xcodeproj */,
 				F611A4DD26EFB1DD007F6DF3 /* Architectures */,
 				F611A4DC26EFB1DD007F6DF3 /* Products */,
 			);
@@ -73,6 +88,14 @@
 				F611A4E726EFB1DE007F6DF3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F611A4F326EFB225007F6DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F611A4F726EFB225007F6DF3 /* SwiftUI_Coordinator_Pattern_Example.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,12 +143,28 @@
 			mainGroup = F611A4D226EFB1DD007F6DF3;
 			productRefGroup = F611A4DC26EFB1DD007F6DF3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F611A4F326EFB225007F6DF3 /* Products */;
+					ProjectRef = F611A4F226EFB225007F6DF3 /* SwiftUI_Coordinator_Pattern_Example.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F611A4DA26EFB1DD007F6DF3 /* Architectures */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F611A4F726EFB225007F6DF3 /* SwiftUI_Coordinator_Pattern_Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftUI_Coordinator_Pattern_Example.app;
+			remoteRef = F611A4F626EFB225007F6DF3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F611A4D926EFB1DD007F6DF3 /* Resources */ = {
@@ -134,6 +173,7 @@
 			files = (
 				F611A4EB26EFB1DE007F6DF3 /* LaunchScreen.storyboard in Resources */,
 				F611A4E826EFB1DE007F6DF3 /* Preview Assets.xcassets in Resources */,
+				F611A4FA26EFB3C7007F6DF3 /* README.md in Resources */,
 				F611A4E526EFB1DE007F6DF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
